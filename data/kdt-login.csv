@@ -1,0 +1,8 @@
+Test,Page,Action,Object,Value
+LoginInvalidAuthTest,,,,
+,Home,GOTOURL,,http://automationpractice.com/index.php
+,Home,CLICK,signInLink,
+,Login,INPUT,login,oleg.kh81@gmail.com
+,Login,INPUT,password,qwerty
+,Login,CLICK,signInButton,
+,Login,ASSERT,msgErrText,Invalid password.

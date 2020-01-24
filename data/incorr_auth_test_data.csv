@@ -1,0 +1,7 @@
+# Email,Password,Error message
+natalia.oleynik10@gmail.com,123123123,Authentication failed.
+nata@test.com,ololo123,Authentication failed.
+nata@test.com,123123123,Authentication failed.
+nata@test.com,,Password is required.
+,123123123,An email address required.
+,,An email address required.
