@@ -5,14 +5,14 @@
     <test name="mixed">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="com.academy.automationpractice.MixedTests" />
+            <class name="com.academy.model.RestApTest" />
         </classes>
     </test>
-    <test name="login">
-        <parameter name="browser" value="firefox" />
-        <classes>
-            <class name="com.academy.automationpractice.LoginTests" />
-        </classes>
-    </test>
+<!--    <test name="login">-->
+<!--        <parameter name="browser" value="firefox" />-->
+<!--        <classes>-->
+<!--            <class name="com.academy.automationpractice.LoginTests" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
